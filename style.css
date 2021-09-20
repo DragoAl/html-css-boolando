@@ -11,6 +11,9 @@ body{
     margin: 0 auto;
     /* background-color: aquamarine; */
 }
+.clearfix{
+    margin-top: 8%;
+}
 
 .clearfix::after{
     content: "";
@@ -68,6 +71,10 @@ body{
     bottom: 20px;
     left: 0px;
     background-color: green;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
 
 }
 .discount.fifty::after {
