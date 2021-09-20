@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.items{
+    float: left;
+    width: calc(100% / 3);
+    object-fit: cover;
+}
+.image{
+    height: 300px;
+}
